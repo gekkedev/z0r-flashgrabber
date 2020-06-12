@@ -1,0 +1,29 @@
+{
+  "name": "z0r-flashgrabber",
+  "version": "1.0.0",
+  "description": "Media downloader for the slowly disappearing flashloop website z0r.de",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "deno run --allow-write=downloads --allow-net=z0r.de index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gekkedev/z0r-flashgrabber.git"
+  },
+  "keywords": [
+    "media-downloader",
+    "flash",
+    "flashloop",
+    "z0r",
+    "deno",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "gekkedev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gekkedev/z0r-flashgrabber/issues"
+  },
+  "homepage": "https://github.com/gekkedev/z0r-flashgrabber#readme"
+}
